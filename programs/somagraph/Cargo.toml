@@ -1,0 +1,23 @@
+[package]
+name = "somagraph"
+version = "0.1.0"
+description = "Somagraph Core — On-chain attestation and burn protocol for biological age intelligence"
+edition = "2021"
+license = "BSL-1.1"
+repository = "https://github.com/somagraph/somagraph-engine"
+readme = "../../README.md"
+
+[lib]
+crate-type = ["cdylib", "lib"]
+name = "somagraph"
+
+[features]
+no-entrypoint = []
+no-idl = []
+no-log-ix-name = []
+cpi = ["no-entrypoint"]
+default = []
+
+[dependencies]
+anchor-lang = "0.30.1"
+anchor-spl = { version = "0.30.1", features = ["token-2022"] }
