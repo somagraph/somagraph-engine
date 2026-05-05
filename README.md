@@ -50,14 +50,14 @@ The analysis costs roughly the same as a coffee. Your library of past panels liv
 └─────────────────────────────────────────────────────────────────────┘
 ```
 
-## Token Utility — $SOMA
+## Token Utility — $SOMAGRAPH
 
 | Mechanic             | Detail                                                              |
 | -------------------- | ------------------------------------------------------------------- |
-| **Total Supply**     | 1,000,000,000 $SOMA (6 decimals)                                    |
+| **Total Supply**     | 1,000,000,000 $SOMAGRAPH (6 decimals)                                    |
 | **Standard**         | SPL Token-2022 with BurnAuthority + MetadataPointer                 |
 | **First Analysis**   | Free (1 per wallet, lifetime)                                       |
-| **Subsequent**       | 1,000 $SOMA burned **or** $5 USDC — whichever is lower in USD value |
+| **Subsequent**       | 1,000 $SOMAGRAPH burned **or** $5 USDC — whichever is lower in USD value |
 | **USDC Split**       | 50% auto-buyback & burn via Jupiter / 50% protocol treasury         |
 | **Mint Authority**   | Disabled at launch                                                  |
 | **Freeze Authority** | Disabled at launch                                                  |
@@ -67,8 +67,8 @@ The analysis costs roughly the same as a coffee. Your library of past panels liv
 | Tier   | Requirement    | Access                                            |
 | ------ | -------------- | ------------------------------------------------- |
 | Free   | Any wallet     | 1 lifetime free analysis                          |
-| Holder | Any $SOMA      | Pay-per-analysis at lower-of pricing              |
-| Whale  | 100,000+ $SOMA | Beta features 14d early, community roadmap voting |
+| Holder | Any $SOMAGRAPH      | Pay-per-analysis at lower-of pricing              |
+| Whale  | 100,000+ $SOMAGRAPH | Beta features 14d early, community roadmap voting |
 
 > **Note:** Whale tier confers _access_, not yield. No staking, no APR, no passive income claims.
 
@@ -175,7 +175,7 @@ C4Container
 | Phase                | Timeline    | Deliverables                                                                                                                  |
 | -------------------- | ----------- | ----------------------------------------------------------------------------------------------------------------------------- |
 | **V0 — MVP**         | Weeks 1-2   | Landing page, PDF upload, PhenoAge calc, slider playground, wallet connect, USDC payment, famous bio ages, Twitter share card |
-| **V0.5 — Token**     | Week 3      | $SOMA PumpFun launch, 1,000-token burn gate, live burn dashboard                                                              |
+| **V0.5 — Token**     | Week 3      | $SOMAGRAPH PumpFun launch, 1,000-token burn gate, live burn dashboard                                                              |
 | **V1 — Cohort**      | Weeks 4-8   | AI-generated profiles, cohort percentile comparison, panel history, Telegram bot, Apple Health import                         |
 | **V2 — Integration** | Months 3-4  | Quest API, multi-language (ID/ES), ethnicity calibration v1, public API, holder Discord                                       |
 | **V3 — Research**    | Months 5-12 | Anonymous cohort research, genetic risk overlay (23andMe), longitudinal studies                                               |
@@ -196,5 +196,5 @@ C4Container
 ---
 
 <div align="center">
-<sub>⚠️ Somagraph provides wellness insights derived from peer-reviewed longevity research formulas.<br>Results are informational and educational, not medical advice. Always consult a licensed physician before making changes to your health regimen.<br>$SOMA is a utility token, not a security. It confers no equity and no claim on protocol revenue.<br>Smart contract risk exists. Do not deploy capital you cannot afford to lose.</sub>
+<sub>⚠️ Somagraph provides wellness insights derived from peer-reviewed longevity research formulas.<br>Results are informational and educational, not medical advice. Always consult a licensed physician before making changes to your health regimen.<br>$SOMAGRAPH is a utility token, not a security. It confers no equity and no claim on protocol revenue.<br>Smart contract risk exists. Do not deploy capital you cannot afford to lose.</sub>
 </div>
