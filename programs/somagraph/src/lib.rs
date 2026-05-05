@@ -10,7 +10,7 @@ declare_id!("SoMaGrPh111111111111111111111111111111111111");
 /// Handles four core instructions:
 ///   1. initialize_protocol  — one-time setup of treasury and config PDAs
 ///   2. record_analysis      — immutable attestation of a biomarker analysis
-///   3. burn_payment         — burn 1,000 $SOMA for analysis access
+///   3. burn_payment         — burn 1,000 $SOMAGRAPH for analysis access
 ///   4. usdc_buyback_burn    — cron-triggered USDC → SOMAGRAPH → burn cycle
 ///
 /// SECURITY: No raw biomarker data touches this program. Only SHA-256 hashes
@@ -95,9 +95,9 @@ pub mod somagraph_core {
         Ok(())
     }
 
-    /// Burn 1,000 $SOMA from the user's token account.
+    /// Burn 1,000 $SOMAGRAPH from the user's token account.
     ///
-    /// Called when the user pays for analysis with $SOMA tokens.
+    /// Called when the user pays for analysis with $SOMAGRAPH tokens.
     /// The entire amount is permanently destroyed (deflationary).
     pub fn burn_payment(ctx: Context<BurnPayment>) -> Result<()> {
         let state = &mut ctx.accounts.protocol_state;
@@ -132,7 +132,7 @@ pub mod somagraph_core {
     /// Execute USDC buyback-and-burn cycle.
     ///
     /// Triggered by a cron job every 24 hours. Swaps accumulated USDC
-    /// from the treasury into $SOMA via Jupiter, then burns the
+    /// from the treasury into $SOMAGRAPH via Jupiter, then burns the
     /// acquired tokens.
     ///
     /// SECURITY: Only the protocol authority (multisig) can invoke this.
@@ -270,7 +270,7 @@ pub struct BurnPayment<'info> {
     )]
     pub somagraph_mint: AccountInfo<'info>,
 
-    /// The user's $SOMA token account
+    /// The user's $SOMAGRAPH token account
     #[account(mut)]
     pub user_token_account: AccountInfo<'info>,
 
