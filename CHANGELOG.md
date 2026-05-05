@@ -20,7 +20,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Anti-sybil gate: wallet age 7d+, email, IP fingerprint
 - Free-trial system: 1 lifetime analysis per wallet
 - USDC payment flow ($5 per analysis, 50/50 buyback-burn / treasury split)
-- Token burn flow (1,000 $SOMA per analysis, 100% burned)
+- Token burn flow (1,000 $SOMAGRAPH per analysis, 100% burned)
 - CI/CD pipeline (GitHub Actions: Anchor build + test + deploy)
 
 ## [0.1.0] - 2026-05-05
